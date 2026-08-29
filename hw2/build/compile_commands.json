@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello_world.dir/hello_world.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/hello_world.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/hello_world.cpp",
+  "output": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build/CMakeFiles/hello_world.dir/hello_world.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello_world.dir/example.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/example.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/example.cpp",
+  "output": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build/CMakeFiles/hello_world.dir/example.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++17 -arch arm64 -o CMakeFiles/hello_world.dir/move_me_out.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/move_me_out.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/move_me_out.cpp",
+  "output": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build/CMakeFiles/hello_world.dir/move_me_out.cpp.o"
+}
+]

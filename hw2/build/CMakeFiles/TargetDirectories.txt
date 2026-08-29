@@ -1,0 +1,3 @@
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build/CMakeFiles/hello_world.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build/CMakeFiles/edit_cache.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw2/homework_source/build/CMakeFiles/rebuild_cache.dir
