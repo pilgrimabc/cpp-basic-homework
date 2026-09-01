@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/container.dir/container.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/container.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/container.cpp",
+  "output": "CMakeFiles/container.dir/container.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/sequence_container.dir/sequence_container.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/sequence_container.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/sequence_container.cpp",
+  "output": "CMakeFiles/sequence_container.dir/sequence_container.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/list_container.dir/list_container.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/list_container.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/list_container.cpp",
+  "output": "CMakeFiles/list_container.dir/list_container.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/additional_task_1.dir/additional_task_1.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_1.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_1.cpp",
+  "output": "CMakeFiles/additional_task_1.dir/additional_task_1.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/additional_task_2.dir/additional_task_2.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_2.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_2.cpp",
+  "output": "CMakeFiles/additional_task_2.dir/additional_task_2.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/additional_task_3.dir/additional_task_3.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_3.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_3.cpp",
+  "output": "CMakeFiles/additional_task_3.dir/additional_task_3.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/additional_task_4.dir/additional_task_4.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_4.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/additional_task_4.cpp",
+  "output": "CMakeFiles/additional_task_4.dir/additional_task_4.cpp.o"
+}
+]

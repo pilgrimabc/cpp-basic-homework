@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "container",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "additional_task_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-additional_task_1-Debug-22e794012e99af45cf29.json",
+					"name" : "additional_task_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "additional_task_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-additional_task_2-Debug-50fa27c2adefb5a06a06.json",
+					"name" : "additional_task_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "additional_task_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-additional_task_3-Debug-bd5c01b995efe6305a0d.json",
+					"name" : "additional_task_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "additional_task_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-additional_task_4-Debug-ed7a3e15163af5b3a47f.json",
+					"name" : "additional_task_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "container::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-container-Debug-2b1a9b163c9f2ccdb461.json",
+					"name" : "container",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_container::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_container-Debug-82b9cae3e6ba6787d95f.json",
+					"name" : "list_container",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sequence_container::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sequence_container-Debug-048ac0df4dacbb0a5ef8.json",
+					"name" : "sequence_container",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexkapranov/\u0420\u0430\u0431\u043e\u0442\u044b/cpp-otus/cpp-basic-homework/hw5/build",
+		"source" : "/Users/alexkapranov/\u0420\u0430\u0431\u043e\u0442\u044b/cpp-otus/cpp-basic-homework/hw5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

@@ -1,0 +1,190 @@
+#include <iostream>
+#include <initializer_list>
+
+// последовательнный контейнер 
+template <typename T>
+class SequenceContainer {
+public:
+    // инициализация пустого контейнера, конструктор по умолчанию
+    SequenceContainer() : c_pntr{nullptr}, c_size{0} {};
+
+    // конструктор с заданным количеством элементов
+    SequenceContainer(std::initializer_list<T> sequence_container_list) {
+        c_size = sequence_container_list.size();
+        c_pntr = new T[c_size];
+
+        // копируем элементы из массива в контейнер
+        const T* sequence_container_list_begin = sequence_container_list.begin();
+
+        for (int i=0; i < c_size; i++) {
+            c_pntr[i] = *(sequence_container_list_begin + i);
+        }
+    }
+
+    ~SequenceContainer() {
+        delete[] c_pntr;
+    }
+
+    // геттер разрмера
+    size_t getSize() const {
+        return c_size;
+    }
+
+    void printSize() const {
+        std::cout << c_size << std::endl;
+    }
+
+    // общая информация о контенере DEV
+    void getInfoDev() const {
+        std::cout << "Container is based in " << c_pntr << " with size " << c_size << std::endl;
+
+        for (int i=0; i < c_size; i++) {
+            std::cout << "Element = " << *(c_pntr+i) << " has adress" << c_pntr + i << std::endl;
+        }
+
+    };
+
+    void print() const {
+        for (size_t i=0; i < c_size; i++) {
+            if (i == c_size - 1) {
+                std::cout << c_pntr[i] << std::endl;
+            } else {
+                std::cout << c_pntr[i] << ", ";
+            }
+            
+        }
+    }
+
+    void push_back(T value) {
+        T* new_region = new T[c_size + 1];
+
+        for (int i=0; i < c_size; i++) {
+            new_region[i] = c_pntr[i];
+        }
+
+        new_region[c_size] = value; 
+        delete[] c_pntr;
+
+        // обновляем мемберов 
+        c_pntr = new_region;
+        c_size += 1;
+    }
+
+    void insert(T value, int position) {
+        // проверка границ
+        if (position < 0 || position > c_size) {return;}
+        // выделяем область памяти
+        T* new_region = new T[c_size + 1];
+
+        // перебираем до нужного элемента
+        for (int i=0; i < position; i++) {
+            new_region[i] = c_pntr[i];
+        }
+        
+        // вставляем нужный элемент 
+        new_region[position] = value;
+
+        // сдвигаем на единицу индекс и копируем дальше
+         for (int i = position; i < c_size; i++) {
+            new_region[i + 1] = c_pntr[i];
+         }
+
+        delete[] c_pntr;
+
+        //обновляем мемберов
+        c_pntr = new_region;
+        c_size += 1;
+
+    }
+
+    
+    void erase(int position) {
+    
+        if (position < 0 || position >= c_size) { return; }  
+
+    
+        if (c_size == 1) {
+            delete[] c_pntr;
+            c_pntr = nullptr;
+            c_size = 0;
+            return;
+        }
+
+        T* new_region = new T[c_size - 1];
+
+
+        for (int i = 0; i < position; i++) {
+            new_region[i] = c_pntr[i];
+        }
+
+    
+        for (int i = position; i < c_size - 1; i++) {
+            new_region[i] = c_pntr[i + 1];
+        } 
+
+        delete[] c_pntr;
+
+
+        c_pntr = new_region;
+        c_size -= 1;
+    }
+
+    T& operator[] (int i) {
+        return c_pntr[i];
+    }
+
+private:
+    T* c_pntr;
+    int c_size;
+};
+
+int main() {
+    std::cout << "1. cоздание объекта контейнера для хранения объектов типа int\n";
+    std::cout << "2. добавление в контейнер десяти элементов (0, 1 ... 9)\n";
+
+    SequenceContainer<int> task({0,1,2,3,4,5,6,7,8,9});
+
+    std::cout << "3. вывод содержимого контейнера на экран\n" << std::endl;
+
+    task.print();
+    
+    std::cout << "4. вывод размера контейнера на экран\n" << std::endl;
+
+    task.printSize();
+
+    std::cout << "5. удаление третьего (по счёту), пятого и седьмого элементов" << std::endl;
+
+    task.erase(2);
+    task.erase(3);
+    task.erase(4);
+
+    std::cout << "6. вывод содержимого контейнера на экран\n" << std::endl;
+
+    task.print();
+
+    std::cout << "7. добавление элемента 10 в начало контейнера" << std::endl;
+
+    task.insert(10,0);
+
+    std::cout << "8. вывод содержимого контейнера на экран\n" << std::endl;
+
+    task.print();
+
+    std::cout << "9. добавление элемента 20 в середину контейнера" << std::endl;
+
+    task.insert(20,4);
+
+    std::cout << "10. вывод содержимого контейнера на экран\n" << std::endl;
+
+    task.print();
+
+    std::cout << "11. добавление элемента 30 в конец контейнера" << std::endl;
+
+    task.push_back(30);
+
+    std::cout << "12. вывод содержимого контейнера на экран\n" << std::endl;
+
+    task.print();
+
+    return 0;
+}

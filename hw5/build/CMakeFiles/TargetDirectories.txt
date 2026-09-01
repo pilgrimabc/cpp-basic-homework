@@ -1,0 +1,9 @@
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/container.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/sequence_container.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/list_container.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/additional_task_1.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/additional_task_2.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/additional_task_3.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/additional_task_4.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/edit_cache.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw5/build/CMakeFiles/rebuild_cache.dir
