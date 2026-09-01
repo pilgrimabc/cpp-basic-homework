@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/additional_1_tests.dir/additional_1_tests.cpp.o -o additional_1_tests  lib/libgtest.a lib/libgtest_main.a
