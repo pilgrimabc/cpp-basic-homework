@@ -1,0 +1,7 @@
+Alex 3
+Gena 6
+Adik 6
+Goga 9
+Borat 4
+15 5
+Alex 5
