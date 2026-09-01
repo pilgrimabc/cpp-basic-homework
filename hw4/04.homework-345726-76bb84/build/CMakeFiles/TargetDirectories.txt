@@ -1,0 +1,3 @@
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/04.homework-345726-76bb84/build/CMakeFiles/physics.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/04.homework-345726-76bb84/build/CMakeFiles/edit_cache.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/04.homework-345726-76bb84/build/CMakeFiles/rebuild_cache.dir

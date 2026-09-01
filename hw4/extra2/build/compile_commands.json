@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/main.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/main.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/main.cpp",
+  "output": "CMakeFiles/physics.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/World.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/World.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/World.cpp",
+  "output": "CMakeFiles/physics.dir/World.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/Ball.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Ball.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Ball.cpp",
+  "output": "CMakeFiles/physics.dir/Ball.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/Physics.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Physics.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Physics.cpp",
+  "output": "CMakeFiles/physics.dir/Physics.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/Color.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Color.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Color.cpp",
+  "output": "CMakeFiles/physics.dir/Color.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/Painter.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Painter.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/Painter.cpp",
+  "output": "CMakeFiles/physics.dir/Painter.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/black_box/Application.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/black_box/Application.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/black_box/Application.cpp",
+  "output": "CMakeFiles/physics.dir/black_box/Application.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/black_box/View.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/black_box/View.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/black_box/View.cpp",
+  "output": "CMakeFiles/physics.dir/black_box/View.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/opt/sfml@2/include -g -std=gnu++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/physics.dir/black_box/PainterImpl.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/black_box/PainterImpl.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw4/extra3/black_box/PainterImpl.cpp",
+  "output": "CMakeFiles/physics.dir/black_box/PainterImpl.cpp.o"
+}
+]
