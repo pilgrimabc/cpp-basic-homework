@@ -1,0 +1,5 @@
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build/CMakeFiles/random_shuffle.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build/CMakeFiles/chrono_example.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build/CMakeFiles/statistics.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build/CMakeFiles/edit_cache.dir
+/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build/CMakeFiles/rebuild_cache.dir

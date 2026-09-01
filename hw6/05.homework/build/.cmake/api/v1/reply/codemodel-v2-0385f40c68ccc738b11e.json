@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "05.homework",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chrono_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chrono_example-Debug-5ef9309c87773d9c5698.json",
+					"name" : "chrono_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "random_shuffle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-random_shuffle-Debug-130cb13483832e49c183.json",
+					"name" : "random_shuffle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "statistics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statistics-Debug-5dc1aeb1ad38c31fbf0f.json",
+					"name" : "statistics",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexkapranov/\u0420\u0430\u0431\u043e\u0442\u044b/cpp-otus/cpp-basic-homework/hw6/05.homework/build",
+		"source" : "/Users/alexkapranov/\u0420\u0430\u0431\u043e\u0442\u044b/cpp-otus/cpp-basic-homework/hw6/05.homework"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

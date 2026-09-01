@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/random_shuffle.dir/random_shuffle.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/random_shuffle.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/random_shuffle.cpp",
+  "output": "CMakeFiles/random_shuffle.dir/random_shuffle.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/chrono_example.dir/chrono_example.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/chrono_example.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/chrono_example.cpp",
+  "output": "CMakeFiles/chrono_example.dir/chrono_example.cpp.o"
+},
+{
+  "directory": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/statistics.dir/statistics.cpp.o -c /Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/statistics.cpp",
+  "file": "/Users/alexkapranov/Работы/cpp-otus/cpp-basic-homework/hw6/05.homework/statistics.cpp",
+  "output": "CMakeFiles/statistics.dir/statistics.cpp.o"
+}
+]
