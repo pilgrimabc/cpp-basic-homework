@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "crc32_crack",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crc32_crack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crc32_crack-7bbc052284f8e3399436.json",
+					"name" : "crc32_crack",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alexkapranov/\u0420\u0430\u0431\u043e\u0442\u044b/cpp-otus/cpp-basic-homework/hw8/crc32_crack/build",
+		"source" : "/Users/alexkapranov/\u0420\u0430\u0431\u043e\u0442\u044b/cpp-otus/cpp-basic-homework/hw8/crc32_crack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
