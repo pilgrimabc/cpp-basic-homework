@@ -5,7 +5,7 @@ hw6/05.homework-12995-64dedc.zip
 hw8/crack_homework-345726-6b2c9a.pdf
 
 
-hw10/build
-hw10/test_xtensor.cpp
-hw10/.*
+hw10/tencon-cpp/build
+hw10/tencon-cpp/test_xtensor.cpp
+hw10/tencon-cpp/.*
 
